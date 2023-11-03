@@ -62,3 +62,13 @@ p {
 section {
   padding: 20px;
 }
+#listalinks {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 30px;
+}
+footer {
+  text-align: center;
+}
