@@ -1,0 +1,64 @@
+body {
+  background-color: black;
+}
+.d-flex {
+  align-items: center;
+}
+.bi-bell-fill {
+  color: white;
+}
+.kids {
+  color: white;
+  text-decoration: none;
+}
+.search {
+  padding-left: 560px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+#navBar {
+  display: flex;
+  gap: 10px;
+  justify-content: start;
+}
+.navbar-nav {
+  display: flex;
+  gap: 20px;
+}
+a:hover {
+  color: rgb(255, 254, 254);
+}
+a {
+  text-decoration: none;
+  color: rgb(132, 132, 132);
+}
+.bi-search:hover {
+  color: rgb(255, 254, 254);
+}
+h2 {
+  color: white;
+}
+#shows {
+  display: flex;
+
+  align-items: center;
+  gap: 30px;
+}
+#genres {
+  background-color: transparent;
+  color: white;
+  box-shadow: none;
+  border: 1px solid white;
+  width: 100px;
+  height: 40px;
+}
+.icons {
+  display: inline-flex;
+}
+p {
+  color: white;
+}
+section {
+  padding: 20px;
+}
