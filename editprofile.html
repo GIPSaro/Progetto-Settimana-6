@@ -26,9 +26,24 @@
           <h1>Edit Profile</h1>
           <hr />
         </div>
-        <div id="profile" class="text-center">
+        <div id="profile">
           <img src="./Netflix-assets/assets/avatar.png" alt="" width="75px" />
-          <span id="first" class="placeholder text-white"><p>Student</p></span>
+          <div class="profile-edit-label">
+            <label
+              for="profile-name-entry"
+              id="profile-name-entry-label"
+              class="visually-hidden"
+              >Strive Student</label
+            >
+            <input
+              type="text"
+              class
+              id="profile-name-entry"
+              aria-labelledby="profile-name-entry-label"
+              placeholder="nome"
+              value="Strive Student"
+            />
+          </div>
 
           <h4>Language:</h4>
           <div class="dropdown">
@@ -48,19 +63,30 @@
             </ul>
           </div>
         </div>
-        <hr />
-        <div class="container-fluid" id="flex2">
-          <h4>Maturity Settings:</h4>
-          <div id="second" class="placeholder text-white">
-            ALL MATURITY RATINGS
-          </div>
-          <p>Show titles of all maturity ratings for thi profile.</p>
-          <button class="btn2" type="#">EDIT</button>
-          <div>
-            <hr class="text-center" />
-            <h4>Autoplay controls</h4>
-          </div>
+      </div>
+      <hr />
+      <div class="container-fluid" id="flex2">
+        <h4>Maturity Settings:</h4>
+        <div>
+          <h6 class="profile-maturity-label">ALL MATURITY RATINGS</h6>
         </div>
+        <p>Show titles of all maturity ratings for thi profile.</p>
+        <button class="btn2" type="#">EDIT</button>
+      </div>
+      <div>
+        <hr class="text-center" />
+        <div class="container-fluid" id="flex3">
+          <h4>Autoplay controls</h4>
+
+          <p>Autoplay next episode in a series on all devices</p>
+          <p>Autoplay previews while browsing on all devices</p>
+        </div>
+      </div>
+      <hr />
+      <div class="container-fluid" id="flex4">
+        <button class="btn2">SAVE</button>
+        <button class="btn3">CANCEL</button>
+        <button class="btn4">DELETE PROFILE</button>
       </div>
     </div>
 
